@@ -38,8 +38,9 @@ import reportWebVitals from './reportWebVitals';
 // import ThemeToggle from './ThemeToggle';
 // import ErrorBoundary from './ErrorBoundary';
 import Apperr from './Apperr';
-import Appmemo from './Appmemo';
-
+// import Appmemo from './Appmemo';
+import Rememo from './Rememo';
+import PureApp from './PureApp';
 // import { BrowserRouter,Routes,Route } from 'react-router-dom';
 
 // import RedirectButton from './RedirectButton.js';
@@ -133,7 +134,9 @@ root.render(
     
 {/* <ErrorBoundary/> */}
 {/* <Apperr/> */}
-<Appmemo/>
+{/* <Appmemo/> */}
+{/* <Rememo/> */}
+<PureApp/> 
  
 </>
 );
